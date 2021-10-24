@@ -1,0 +1,24 @@
+a)
+x = 2; y = 3;
+if (x > y):
+    result = x;
+else:
+    result = y;
+
+Kod jest poprawny, tylko że można by było bez średników
+
+b)
+for i in "qwerty": if ord(i) < 100: print (i)
+
+Funkcja ord() w pythonie zwraca liczbę reprezentującą unicode danego znaku.
+W danym przykładzie liczba zwracana z każdego znaka jest powyżej 100, dlatego nic nie
+będzie się printowało. Oraz zapis danego programu nie jest poprawny,
+należy każdą nową instrukcję zaczynać z nowej linii
+
+c)
+for i in "axby": print (ord(i) if ord(i) < 100 else i)
+
+Nie, zaczynamy nową instrukcje z nowej linii, np:
+
+for i in "axby":
+ print (ord(i) if ord(i) < 100 else i)
