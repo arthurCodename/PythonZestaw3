@@ -1,0 +1,35 @@
+L = [3, 5, 4] ; L = L.sort()
+
+Instrukcja zapisana w jendej linii, oraz można by było bes średnika,
+a także by zobaczyć jakieś dane wyjściowe wartowałoby
+skorzystać z funkcji print() dla L.sort()
+
+--------------------------
+x, y = 1, 2, 3
+
+x będzie przypisane 1, y - 2, a trójka będzie zbędna
+
+--------------------------
+
+X = 1, 2, 3 ; X[1] = 4
+
+Nie jest to tablicą by można było coś takiego zrobić,
+to jest krotka która jest niezmienna
+
+--------------------------
+
+X = [1, 2, 3] ; X[3] = 4
+
+Nie ma elementu o indeksie 3
+
+--------------------------
+
+X = "abc" ; X.append("d")
+Funkcja append() nie stosuje się w Pythonie do stringów,
+należy tu skorzystać z funcji join albo z concatynacji
+
+--------------------------
+
+L = list(map(pow, range(8)))
+
+Funcja pow oczekuje dwóch argumentów, otrzymała 1.
